@@ -14,5 +14,5 @@ plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
 plt.xticks(np.arange(0, len(x_n), 2))  # Setting x-axis scale to 2
 plt.grid(True)
-plt.show()
+plt.savefig('a.png')
 
